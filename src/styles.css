@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  color: red;
+}
+h2 {
+  font-size: 55px;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  color: aqua;
+}
+.nav-background {
+  background-color: rgba(67, 15, 88, 0.7);
+}
+.head {
+  background: #655989;
+  padding: 120px 40px;
+}
+.head p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.head h2 {
+  font-size: 45px;
+}
+.padding {
+  padding-top: 100px;
+}
+.font-p {
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.bottom {
+  background-color: #7a9eaf;
+  padding-top: 40px;
+}
+.text {
+  color: #9d53c3;
+}
+.navbar {
+  padding: 25px 0;
+}
+.btn-color {
+  background-color: #de88a5;
+  padding: 15px 30px;
+  color: #ffcebb;
+  font-size: 22px;
+}
+
+.project-desciption {
+  padding: 30px 60px;
+}
+.project-desciption p {
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+  opacity: 0.7;
+}
+.muted {
+  opacity: 0.5;
+}
+.btn:hover {
+  color: aqua;
+  border: 1px solid aqua;
+}
