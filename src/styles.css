@@ -18,6 +18,16 @@ h2 {
 .nav-background {
   background-color: rgba(67, 15, 88, 0.7);
 }
+.text {
+  color: var(--branding-color);
+}
+.navbar {
+  padding: 25px 0;
+}
+nav .change-color:hover {
+  color: aqua;
+}
+
 .head {
   background: #655989;
   padding: 120px 40px;
@@ -41,12 +51,7 @@ h2 {
   background-color: #7a9eaf;
   padding-top: 40px;
 }
-.text {
-  color: var(--branding-color);
-}
-.navbar {
-  padding: 25px 0;
-}
+
 .btn-color {
   background-color: var(--branding-color);
   padding: 15px 30px;
@@ -55,7 +60,7 @@ h2 {
 }
 
 .project-desciption {
-  padding: 30px 60px;
+  padding: 20px 50px;
 }
 .project-desciption p {
   font-family: var(--default-font-family);
@@ -78,4 +83,7 @@ h2 {
 }
 .act {
   color: #fc3a52;
+}
+.margin-top {
+  margin-top: 170px;
 }
