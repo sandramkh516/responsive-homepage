@@ -87,3 +87,16 @@ nav .change-color:hover {
 .margin-top {
   margin-top: 170px;
 }
+.head-about {
+  padding: 160px 40px;
+}
+.contact-about {
+  padding: 60px 40px;
+  background: #eaaec2;
+}
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
