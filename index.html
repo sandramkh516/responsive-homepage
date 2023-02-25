@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sara is a Front-end engineer based in Iran"
+    />
     <title>portfolio-project</title>
     <link
       rel="stylesheet"
@@ -26,7 +30,9 @@
   <body>
     <nav class="navbar navbar-expand-lg nav-background fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sara Mokhtari</a>
+        <a class="navbar-brand" href="#" title="Homepage">Sara Mokhtari</a>
+        <img src="images/avatar.jpg" class="d-block d-md-none" />
+
         <button
           class="navbar-toggler"
           type="button"
@@ -45,17 +51,31 @@
                 class="nav-link text act change-color"
                 aria-current="page"
                 href="/"
+                title="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text change-color" href="/about.html">About</a>
+              <a
+                class="nav-link text change-color"
+                href="/about.html"
+                title="About Sara"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text change-color" href="/work.html">Work</a>
+              <a
+                class="nav-link text change-color"
+                href="/work.html"
+                title="Sara's work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text change-color" href="/contact.html"
+              <a
+                class="nav-link text change-color"
+                href="/contact.html"
+                title="Contact Sara"
                 >Contact</a
               >
             </li>
@@ -66,7 +86,7 @@
     <div class="head">
       <div class="container">
         <div class="row">
-          <div class="col-6 padding">
+          <div class="col-md-6 padding">
             <h2>Hi I'm</h2>
             <h1 class="mb-0">Sara Mokhtari</h1>
             <h3 class="mt-0 muted">Front-end developer based in asia,Iran</h3>
@@ -75,12 +95,13 @@
               Electrical engineering
               <br />I'm really into coding...
             </p>
-            <a href="" class="btn btn-contact mt-5">Contact Me</a>
+            <a href="contact.html" class="btn btn-contact mt-5">Contact Me</a>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <img
               src="images/profile.jpg"
-              class="img-fluid rounded-circle"
+              alt=""
+              class="img-fluid rounded-circle d-none d-md-block"
               width="500"
             />
           </div>
@@ -88,14 +109,17 @@
       </div>
     </div>
     <div class="bottom pb-5">
-      <p class="text-center mb-5 font-p">Here are three of my project</p>
+      <p class="text-center font-p">Here are three of my project</p>
 
       <div class="container">
         <div class="row margin-top">
-          <div class="col-6">
-            <img src="images/weather-project.png" class="img-fluid rounded" />
+          <div class="col-md-6">
+            <img
+              src="images/weather-project.png "
+              class="img-fluid rounded d-none d-md-block"
+            />
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="project-desciption">
               <h2>Weather App</h2>
               <p>
@@ -104,12 +128,16 @@
                 condition, relative humidity, and wind speed, in addition to
                 five days in the future weather forecast.
               </p>
-              <a href="" class="btn btn-color">Lunch App</a>
+              <a
+                href="https://extraordinary-semifreddo-79de60.netlify.app"
+                class="btn btn-color"
+                >Lunch App</a
+              >
             </div>
           </div>
         </div>
         <div class="row margin-top">
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="project-desciption">
               <h2>Croissant Project</h2>
               <p>
@@ -119,18 +147,28 @@
                 build a landing page about Croissant. The page utilizes
                 JavaScript functions to create user interaction.
               </p>
-              <a href="" class="btn btn-color">Lunch App</a>
+              <a
+                href="https://nimble-sorbet-ff1208.netlify.app"
+                class="btn btn-color"
+                >Lunch App</a
+              >
             </div>
           </div>
-          <div class="col-6">
-            <img src="images/croissant-project.png" class="img-fluid rounded" />
+          <div class="col-md-6">
+            <img
+              src="images/croissant-project.png  "
+              class="img-fluid rounded d-none d-md-block"
+            />
           </div>
         </div>
         <div class="row margin-top">
-          <div class="col-6">
-            <img src="images/a.png" class="img-fluid rounded" />
+          <div class="col-md-6">
+            <img
+              src="images/project-portfolio.png "
+              class="img-fluid rounded d-none d-md-block"
+            />
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="project-desciption">
               <h2>Portfolio App</h2>
               <p>
@@ -139,7 +177,11 @@
                 condition, relative humidity, and wind speed, in addition to
                 five days in the future weather forecast.
               </p>
-              <a href="" class="btn btn-color">Lunch App</a>
+              <a
+                href="https://superb-belekoy-19aed4.netlify.app"
+                class="btn btn-color"
+                >Lunch App</a
+              >
             </div>
           </div>
         </div>
