@@ -142,7 +142,8 @@ nav .change-color:hover {
   color: aqua;
 }
 .background-body {
-  background: #de88a5;
+  background: #f5e1da;
+  margin-top: 80px;
 }
 .background-contact {
   background: white;
